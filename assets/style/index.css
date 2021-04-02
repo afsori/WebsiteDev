@@ -16,6 +16,10 @@ html,body{
     font-weight: 600;
 }
 
+.section-jumbotron{
+    margin-top: 5rem;
+}
+
 .nav-link:active{
     color: rgba(0, 0, 0, 0.9);
 }
@@ -41,8 +45,78 @@ html,body{
     line-height: 1.6;
 }
 
+.section-client{
+    background: #f9f9f9;
+    border-radius: 0px 77px 0 0px;
+    margin-top: 5rem;
+}
+
+.row-client img{
+  width: 150px;
+  height: 150px;
+  margin:0 auto
+}
+
+.colum-client{
+    text-align: center;
+    margin:3rem 0px;
+}
+
+.headline-client{
+    font-size: 2.5rem;
+    font-weight: 700;
+padding-top: 2rem;
+}
+
+.section-tabs{
+    padding-top:5rem;
+}
+
+.wrapper-card{
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 1.5s;
+    cursor: pointer;
+}
+
+.harga-paket{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.wrapper-card button{
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #87a6d3;
+    color: white;
+}
+
+.wrapper-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transform: scale(1.2);
+}
+
+.harga-popular{
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
 
 @media only screen and (max-width: 767px) {
+    .section-jumbotron{
+        margin-top: 3rem;
+    }
     .row-jumbotron {
         flex-direction: column-reverse;
     }
