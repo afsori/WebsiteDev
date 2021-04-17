@@ -1,0 +1,30 @@
+.wrapper-register{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.wrapper-caption a{
+text-decoration: none;
+}
+
+.wrapper-google{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-google img{
+    margin-right: 7px;
+}
+
+.wrapper-background{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wrapper-headline{
+    font-size: 2rem;
+    font-weight: 500;
+}
