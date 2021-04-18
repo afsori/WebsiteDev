@@ -13,6 +13,12 @@ html,body{
     padding: 4px 12px;
     margin-left: 10px;
 }
+.nav-item .nav-link.button-register:hover{
+    color: #fff;
+    font-size: 13px;
+    padding: 4px 12px;
+    margin-left: 10px;
+}
 
 .navbar-brand{
     font-weight: bold;
