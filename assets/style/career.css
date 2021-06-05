@@ -1,0 +1,83 @@
+.wrapper-container{
+    background-image: url("../images/collaborative-process-multicultural-businesspeople-using-laptop-presentation-communication-meeting-brainstorming-ideas-about-project-colleagues-working-plan-success-strategy-modern-office.jpg");
+    background-size: cover;
+    padding: 6rem 2rem;
+    height: 609px;
+    max-height: 609px;
+}
+
+.column-caption h1{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.column-caption p{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.bg-wrapper .btn-primary{
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.headline-slider p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.section-slider{
+    padding: 3rem 0px;
+    background-color: #f1f1f1;
+}
+
+.title-job{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.caption-job{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper-job ol li{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5;
+}
+
+.wrapper-img-job {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapper-img-job img{
+    width: 200px;
+}
+
+.section-text{
+    background: #fbf9f9;
+    padding: 3rem 0px;
+}
+
+/* Mobile version */
+@media only screen and (max-width: 767px) {
+    .wrapper-container{
+        height: 100%;
+        object-fit: cover;
+    }
+}

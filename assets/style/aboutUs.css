@@ -2,6 +2,156 @@
     margin-top: 3rem;
 }
 
+.section-wrap-col{
+    margin-top: 6rem;
+}
+
+.wrapper-col-first img{
+width: 100px
+}
+
+.wrapper-col-first h1{
+font-size: 1.5rem;
+margin-top: 1.5rem;
+margin-bottom: 0;
+line-height: 1.4;
+}
+
+.wrapper-col-first p{
+margin-top: 1rem;
+line-height: 1.6;
+}
+
+.wrapper-col-3 img{
+    width: 100px;
+}
+
+.wrapper-col-3 h1{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.wrapper-col-3 p{
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.section-4{
+    margin-top: 6.5rem;
+}
+
+.image-section-4 img{
+width: 100%;
+}
+
+.caption-section-4 h4{
+    font-weight: 600;
+    color: rgb(54, 143, 13);
+}
+
+.caption-section-4 p{
+    width: 90%;
+    line-height: 1.6;
+}
+
+.section-5{
+    margin-top: 6rem;
+}
+
+.wrapper-container{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+.headline-section-5{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.headline-section-5 h4{
+    font-weight: 600;
+    color: rgb(54, 143, 13)
+}
+
+.headline-section-5 h2{
+    font-weight: 700
+}
+
+.headline-section-5 p{
+    text-align: center;
+}
+
+.col-1-section-5 img{
+    width: 70px;
+    margin-bottom: 1rem;
+}
+
+
+.col-1-section-5 h4{
+margin-bottom: 1rem;
+font-weight: 500;
+}
+
+.section-6{
+    margin-top: 6rem;
+}
+
+.col-section-6 h5{
+    font-weight: 500;
+    color: rgb(54, 143, 13);
+}
+
+.col-section-6 h3{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.col-section-6 p{
+    font-size: 1.2remrem;
+    width: 80%;
+}
+
+.col-2-section-6 img{
+width: 100%;
+border-radius: 20px 0 20px 0;
+}
+
+.section-7{
+    margin: 6rem 0px;
+}
+
+.col-1-section-7 h3{
+    font-weight: 600;
+}
+
+.col-1-section-7 p{
+   margin-bottom: 0;
+   line-height: 1.7;
+}
+
+.container-section-7{
+    background-color: #e9fbed;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.col-2-section-7{
+    display: flex;
+    justify-content: center;
+}
+
+.col-2-section-7 img{
+width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -9,8 +159,55 @@
     .wrapp-button{
         margin-top: 1.5rem;
     }
+
+    .wrapper-col-first img{
+        width: 50px
+    }
+
+    .wrapper-col-3 img{
+        width: 50px;
+    }
+
+    .caption-section-4 p{
+        width: 100%;
+        line-height: 1.6;
+    }
+
+    .caption-section-4{
+     text-align: center;
+    }
+
+    .col-1-section-7{
+        text-align: center;
+    }
+
+    .col-2-section-7{
+        margin-top: 1rem;
+    }
+
+    .col-section-6 h3{
+        font-size: 1.5rem;
+    }
+
+    .col-section-6 p{
+        width: 100%;
+    }
+
      
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .col-section-6 h3{
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .col-1-section-7{
+        text-align: center;
+    }
+
+    .col-2-section-7{
+        margin-top: 1rem;
+    }
+}

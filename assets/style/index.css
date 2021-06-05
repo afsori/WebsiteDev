@@ -9,13 +9,11 @@ html,body{
 
 .nav-item .nav-link.button-register{
     color: #fff;
-    font-size: 13px;
     padding: 4px 12px;
     margin-left: 10px;
 }
 .nav-item .nav-link.button-register:hover{
     color: #fff;
-    font-size: 13px;
     padding: 4px 12px;
     margin-left: 10px;
 }
